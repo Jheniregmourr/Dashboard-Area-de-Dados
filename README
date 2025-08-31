@@ -2,11 +2,15 @@
 
 Um **dashboard interativo** sobre salários na área de dados. Ideal para análise visual de dados e tomada de decisões baseada em informações do mercado.
 
+---
+
 ## Funcionalidades Implementadas
 
 - Visualização interativa de salários por cargo, experiência e região
 - Comparação de dados de forma clara e intuitiva
 - Dashboard de fácil navegação, ideal para análise rápida
+
+---
 
 ## Tecnologias Utilizadas
 
@@ -16,21 +20,28 @@ Um **dashboard interativo** sobre salários na área de dados. Ideal para análi
 - Plotly
 - Google Colab
 
+---
+
 ## Como Usar
 
-### Instalar Dependências e Execução do Programa
+### 1. Instalar Dependências
 
 Instale todas as bibliotecas listadas em `requirements.txt`:
 
+```bash
+pip install -r requirements.txt
+
+## 2. Executar o Programa
+
 Rode o seguinte comando no terminal:
 
-**streamlit run app.py**
+```bash
+streamlit run app.py
 
 Substitua app.py pelo nome do arquivo do seu projeto, caso seja diferente.
-O dashboard será aberto no navegador em localhost.
+O dashboard será aberto no navegador em localhost
 
-E pronto, você já consegue visualizar seu dash na web de forma local!
+E pronto! Você já consegue visualizar seu dash na web de forma local.
 
-## Layout
-
-![preview Dashboard](/img/layout.png)
+### Layout
+![preview Dashboard](img/layout.png)
