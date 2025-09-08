@@ -28,14 +28,12 @@ Um **dashboard interativo** sobre salários na área de dados. Ideal para análi
 
 Instale todas as bibliotecas listadas em `requirements.txt`:
 
-```bash
 pip install -r requirements.txt
 
 ## 2. Executar o Programa
 
 Rode o seguinte comando no terminal:
 
-```bash
 streamlit run app.py
 
 Substitua app.py pelo nome do arquivo do seu projeto, caso seja diferente.
